@@ -1,0 +1,47 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block title %}
+    <title>CROP</title>
+{% endblock %}
+
+{% block body %}
+<style>
+body {
+    font-family: 'Montserrat';
+}
+</style>
+    <body>
+      <header class="py-5 bg-image-full" style="background-image: url('{% static "img/newimg241.jpg" %}');">
+         <img  src="{% static "img/krishi_logo.png" %}" style="display:block;margin-left:auto;margin-right:auto;"/>  
+    </header>
+
+    <!-- Content section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="text-center">
+        <h1>WELCOME TO CROP PREDICTION</h1>
+      </div>
+      <br>
+        <p class="text-center" style="font-weight:900;font-size: 22px;">"CROP PREDICTION"</p>
+        <p class="lead" style="text-align: justify;">Technology has played the very vital role in bringing the whole world into the modern era.It has covered almost all the field that are familiar to us.To bring the change in farming process in the agricultural coutries this Smart Agricultural Project titled as Crop Prediction has been introduced. With the help of the hardware module contained with arduino uno AT MEGA 328 implanted on the soil, the pH value, moisture content, humidity and temperature of the soil is measured out and stored in MySQL Database through Android device and with the help of the database, the suitable crops according to the favorable parameters are suggested to the farmers with the motive to give rise to the cultivation of suitable crops. This project accounts with internet of thing(IOT).</p>
+    </div>
+    </section>
+
+    <!-- Image Section - set the background image for the header in the line below -->
+    <img src="{% static "img/krishiphoto123.jpg" %}" style="display:block;margin-left:auto;margin-right:auto;border:5px solid black"/>
+      <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+      <div style="height: 50px;"></div>
+    </section>
+
+    <!-- Content section -->
+    <section class="py-5">
+      <div class="container">
+      <div class="text-center">
+        <p class="lead" style="font-weight:900;font-size: 22px;">Benefits Of the project</p>
+      </div>
+        <p class="lead" style="text-align: justify;">By the implementation of the evolving technologies and techniques in the field of agriculture,the target is to increase the output of the agricultural input . Crop prediction will help to increase the cultivation at the darastically higher rate as it suggest the suitable crops as per the environment and quality of the soil. </p>
+      </div>
+    </section>
+</body>
+{% endblock %}

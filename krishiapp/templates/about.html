@@ -1,0 +1,112 @@
+{% extends 'layout.html' %}
+{% load static %}
+<head>
+    {% block title %}
+        <title>About | KrishiSathi</title>
+    {% endblock %}
+</head>
+{% block body %}
+<style>
+body {
+    font-family: 'Montserrat';
+}
+</style>
+<body>
+        <hr>
+    <!-- Header - set the background image for the header in the line below -->
+    	<div>
+        </header>
+    	<div class="text-center">
+    	<h1>ABOUT</h1>
+    	<br>
+    	</div>
+    	<div class="text-center">
+    	<h3>Team Members</h3>
+    	<br>
+    	</div>
+    	<div class="text-center">
+    	<div class="row">
+    		<div class="col-4">
+    			<img src="{% static "img/Ajaiiswal.jpg" %}" alt="Ashish" style="width:150px;height:150px;border:5px solid black">
+    			<br>
+    			<b>HARSHIT SINGH</b>
+    			<p color="lead"> 18104040 </p>
+    			<i>PUNJAB ENGINEERING COLLEGE</i>
+    			</br>
+    		</div>
+    		<div class="col-4">
+    			<img src="{% static "img/MAdhikari.jpg" %}" alt="Manish" style="width:150px;height:150px;border:5px solid black">	
+    			<br>
+    			<b>NIKHIL AGGARWAL</B>
+    			<p color="lead">18104072</p>
+    			<i>PUNJAB ENGINEERING COLLEGE</i>
+    			</br>
+    			</div>
+    		<div class="col-4">
+    			<img src="{% static "img/Kgyawali.jpg" %}" alt="Kishor" style="width:150px;height:150px;border:5px solid black">
+    			<br>
+    			<b>MONIT GALAV</b>
+    			<p color="lead">18104059</p>
+    			<i>PUNJAB ENGINEERING COLLEGE</i>
+    			<br>
+    			<br>
+    		</div>
+    	</div>
+		<div class="row">
+    		<div class="col-7">
+    			<img src="{% static "img/Ajaiiswal.jpg" %}" alt="Ashish" style="width:150px;height:150px;border:5px solid black">
+    			<br>
+    			<b>RAGHAV GUPTA</b>
+    			<p color="lead"> 18104075 </p>
+    			<i>PUNJAB ENGINEERING COLLEGE</i>
+    			</br>
+    		</div>
+    		<div class="col-3">
+    			<img src="{% static "img/MAdhikari.jpg" %}" alt="Manish" style="width:150px;height:150px;border:5px solid black">	
+    			<br>
+    			<b>SHIVAM UPADHYAY</B>
+    			<p color="lead">18104048</p>
+    			<i>PUNJAB ENGINEERING COLLEGE</i>
+    			</br>
+    			</div>
+    	</div>
+    	</div>
+    	<section class="py-5">
+            <div class="container">
+    			<img src="{% static "img/smartagri1.jpg" %}" alt="hardware" style="display:block;margin-left:auto;margin-right:auto;width:50%;height:500px;border:5px solid black">
+    		</div>
+    	</section>
+    	<section class="py-5">
+            <div class="container">
+            	<div class="text-center">
+    	 		 <h4>WHAT IS IT ABOUT?</h4>
+    	 		</div>
+                <p style="text-align: justify;font-size: 18px;">This project named as "Crop Prediction" is all about the concept of smart agricultural project with the motive to increase the productivity of soil and give raise in the cultivation and harvest process of the crops. The main agenda of this process is suggesting the suitable type of the crops that can be cultivated in accordance with the available value of the parameter.</p>
+            </div>
+          </section>
+    	<section class="py-5">
+            <div class="container">
+            	<div class="text-center">
+    	 		 <h4>WHY CROP PREDICTION?</h4>
+    	 		</div>
+                <p style="text-align: justify;font-size: 18px;">The main target of this project is to replace the old school methodology of farming (traditional way of farming) with the modern and technical method of farming which leads the productivity output to the progressive peak. Farmers are provided the ease for the cultivation and harvest of the suitable crops accrding to the respective considered measured values of parameters.</p>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+            	<div class="text-center">
+    	 		 <h4>WHERE DOES IT HAS SCOPE?</h4>
+    	 		</div>
+                <p style="text-align: justify;font-size: 18px;">The scope is designed as per the cover of the agricultural field and bring the improvement regarding the process and methodologies applied during farming in the context of developing agricultural countries.</p>
+            </div>
+          </section>
+    	<section class="py-5">
+            <div class="container">
+            	<div class="text-center">
+    	 		 <h4>WHOM IS IT APPLICABLE TO?</h4>
+    	 		</div>
+                <p style="text-align: justify;font-size: 18px;">It is applicable to the farmers who sustain their living with the ocuupational farming.They can use crop prediction to maximize the production of crops and this leads to the quality life of the individuals.</p>
+           </div>
+        </section>
+    </body>
+{% endblock %}
